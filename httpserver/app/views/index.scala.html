@@ -1,7 +1,50 @@
-@(message: String)
+@()
 
-@main("Welcome to Play 2.0") {
-    
-    @play20.welcome(message)
-    
+@main("The Hitchhiker's Guide to Scala") {
+
+<section class="slide" id="title-slide">
+	<h1>The Hitchhiker's Guide to Scala</h1>
+</section>
+
+<section class="slide" id="first-look">
+	<h2>Scala?</h2>
+	<ol>
+		<li class="slide">
+			<h3>[Skah:lah]</h3>
+		</li>
+		<li class="slide">
+			<h3>JVM 언어</h3>
+			<ul>
+			<li>JVM: Java Virtual Machine. Java의 실행 환경.</li>
+			<li>Java가 깔려 있는 곳에서 실행됨.</li>
+			<li>Java 라이브러리와 100% 호환됨을 의미.</li>
+			</ul>
+		</li>
+	</ol>
+</section>
+
+
+<section class="slide" id="hello-world">
+	<h2> Hello World in Scala </h2>
+  <textarea name="code" class="code" mode="text/x-scala" style="display: none;">
+	object HelloWorld {
+		def main(args:Array[String]) {
+			println("Hello World!")
+		}
+	}
+  </textarea>
+	
+</section>
+<section class="slide" id="elements-blockquotes">
+	<h2>Other Elements: Blockquotes</h2>
+	<blockquote cite="http://example.org">
+		<p>Food is an important part of a balanced diet.</p>
+		<p><cite>Fran Lebowitz</cite></p>
+	</blockquote>
+	<pre><code>&lt;blockquote cite=&quot;http://example.org&quot;&gt;
+  &lt;p&gt;Food is an important part of a balanced diet.&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;Fran Lebowitz&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+</section>
+
 }

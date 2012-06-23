@@ -4,4 +4,9 @@ project/target
 target
 tmp
 .history
+.cache
 dist
+.project
+.classpath
+.settings/
+.scala_dependencies
