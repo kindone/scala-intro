@@ -4,7 +4,7 @@ import PlayProject._
 
 object ApplicationBuild extends Build {
 
-    val appName         = "httpserver"
+    val appName         = "Scala Introduction"
     val appVersion      = "1.0-SNAPSHOT"
 
     val appDependencies = Seq(
